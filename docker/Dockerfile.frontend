@@ -1,0 +1,11 @@
+FROM node:10
+
+WORKDIR /usr/src/app
+
+COPY ./frontend .
+
+RUN npm install
+RUN npm run build
+
+EXPOSE $PORT
+CMD [ "node", "app.js" ]

@@ -1,0 +1,53 @@
+version: "3"
+
+services:
+
+  frontend:
+    image: vbt.bocekanban.frontend:latest
+    build:
+      context: ../
+      dockerfile: ./docker/Dockerfile.frontend
+
+    environment:
+      BACKEND_HOST: ${BACKEND_HOST}
+
+    ports:
+      - "80:80"
+      - "443:443"
+    networks:
+      - app-host
+    restart: always
+
+
+  backend:
+    image: vbt.bocekanban.backend:latest
+    build:
+      context: ../backend
+      dockerfile: ../docker/Dockerfile.backend
+
+    environment:
+      SPRING_DATASOURCE_URL: ${SPRING_DATASOURCE_URL}
+      SPRING_DATASOURCE_USERNAME: ${SPRING_DATASOURCE_USERNAME}
+      SPRING_DATASOURCE_PASSWORD: ${SPRING_DATASOURCE_PASSWORD}
+      SPRING_MAIL_TRANSPORT_PROTOCOL: ${SPRING_MAIL_TRANSPORT_PROTOCOL}
+      SPRING_MAIL_FROM_EMAIL: ${SPRING_MAIL_FROM_EMAIL}
+      SPRING_MAIL_HOST: ${SPRING_MAIL_HOST}
+      SPRING_MAIL_PORT: ${SPRING_MAIL_PORT}
+      SPRING_MAIL_PROPERTIES_MAIL_SMTP_STARTTLS_ENABLE: ${SPRING_MAIL_PROPERTIES_MAIL_SMTP_STARTTLS_ENABLE}
+      SPRING_MAIL_USERNAME: ${SPRING_MAIL_USERNAME}
+      SPRING_MAIL_PASSWORD: ${SPRING_MAIL_PASSWORD}
+      SPRING_MAIL_PROPERTIES_MAIL_SMTP_STARTTLS_REQUIRED: ${SPRING_MAIL_PROPERTIES_MAIL_SMTP_STARTTLS_REQUIRED}
+      SPRING_MAIL_PROPERTIES_MAIL_SMTP_AUTH: ${SPRING_MAIL_PROPERTIES_MAIL_SMTP_AUTH}
+      BACKEND_HOST: ${BACKEND_HOST}
+      FRONTEND_HOST: ${FRONTEND_HOST}
+    expose: 
+      - 8080
+      - ${BACKEND_PORT}
+    ports:
+      - "${BACKEND_PORT}:8080"
+    networks:
+      - app-host
+    restart: always
+
+networks:
+  app-host:
