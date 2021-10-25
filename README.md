@@ -18,6 +18,7 @@
     <a href="https://github.com/tugayipek1/Kanban_App_JavaVue/issues">Request Feature</a>
   </p>
 </p>
+Live demo: https://bocekanban.herokuapp.com/
 
 ![kanban1](https://user-images.githubusercontent.com/87069084/138701355-624ccbba-4299-44f4-904e-ac4d5fbdbf54.PNG)
 ![kanban2](https://user-images.githubusercontent.com/87069084/138701393-ee6831b7-5ed5-4e8c-b9d7-816b4f70cd40.PNG)
