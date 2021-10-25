@@ -7,13 +7,15 @@
 <br>
 
 <p align="center">
-  <h2 align="center">Marry me?</h2>
+  <h2 align="center">Kanban App</h2>
   <p align="center">
     <br /> This is the project I produced when I was taking my first steps in the software industry. I prepared a quiz for my wife consisting of 20 questions about us. In the last question, a marriage proposal is made and crowned with a beautiful memory.
     <br /> 
-    <a href="https://github.com/tugayipek1/MarryMe/issues">Report Bug</a>
+    <a href="https://github.com/tugayipek1/Quiz-MarryMe
+/issues">Report Bug</a>
     ·
-    <a href="https://github.com/tugayipek1/MarryMe/issues">Request Feature</a>
+    <a href="https://github.com/tugayipek1/Quiz-MarryMe
+/issues">Request Feature</a>
   </p>
 </p>
 
