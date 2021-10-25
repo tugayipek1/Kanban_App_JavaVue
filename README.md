@@ -9,13 +9,13 @@
 <p align="center">
   <h2 align="center">Kanban App</h2>
   <p align="center">
-    <br /> This is the project I produced when I was taking my first steps in the software industry. I prepared a quiz for my wife consisting of 20 questions about us. In the last question, a marriage proposal is made and crowned with a beautiful memory.
-    <br /> 
-    <a href="https://github.com/tugayipek1/Quiz-MarryMe
-/issues">Report Bug</a>
+    Frontend : <a href="https://github.com/tugayipek1/Kanban_App_JavaVue/tree/master/frontend">VUE</a>
+    Backend : <a href="https://github.com/tugayipek1/Kanban_App_JavaVue/tree/master/backend">JAVA</a>
+    <br />
+    <br />
+    <a href="https://github.com/tugayipek1/Kanban_App_JavaVue/issues">Report Bug</a>
     ·
-    <a href="https://github.com/tugayipek1/Quiz-MarryMe
-/issues">Request Feature</a>
+    <a href="https://github.com/tugayipek1/Kanban_App_JavaVue/issues">Request Feature</a>
   </p>
 </p>
 
@@ -31,16 +31,16 @@
 ## Author
 Tugay İPEK- <a href="https://github.com/tugayipek1">Github</a>
 
-[contributors-shield]: https://img.shields.io/github/contributors/tugayipek1/Quiz-MarryMe.svg?style=for-the-badge
-[contributors-url]: https://github.com/tugayipek1/Quiz-MarryMe/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/tugayipek1/Quiz-MarryMe.svg?style=for-the-badge
-[forks-url]: https://github.com/tugayipek1/Quiz-MarryMe/network/members
-[stars-shield]: https://img.shields.io/github/stars/tugayipek1/Quiz-MarryMe.svg?style=for-the-badge
-[stars-url]: https://github.com/tugayipek1/Quiz-MarryMe/stargazers
-[issues-shield]: https://img.shields.io/github/issues/tugayipek1/Quiz-MarryMe.svg?style=for-the-badge
-[issues-url]: https://github.com/tugayipek1/Quiz-MarryMe/issues
-[license-shield]: https://img.shields.io/github/license/tugayipek1/Quiz-MarryMe.svg?style=for-the-badge
-[license-url]: https://github.com/tugayipek1/Quiz-MarryMe/blob/main/LICENSE
+[contributors-shield]: https://img.shields.io/github/contributors/tugayipek1/Kanban_App_JavaVue.svg?style=for-the-badge
+[contributors-url]: https://github.com/tugayipek1/Kanban_App_JavaVue/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/tugayipek1/Kanban_App_JavaVue.svg?style=for-the-badge
+[forks-url]: https://github.com/tugayipek1/Kanban_App_JavaVue/network/members
+[stars-shield]: https://img.shields.io/github/stars/tugayipek1/Kanban_App_JavaVue.svg?style=for-the-badge
+[stars-url]: https://github.com/tugayipek1/Kanban_App_JavaVue/stargazers
+[issues-shield]: https://img.shields.io/github/issues/tugayipek1/Kanban_App_JavaVue.svg?style=for-the-badge
+[issues-url]: https://github.com/tugayipek1/Kanban_App_JavaVue/issues
+[license-shield]: https://img.shields.io/github/license/tugayipek1/Kanban_App_JavaVue.svg?style=for-the-badge
+[license-url]: https://github.com/tugayipek1/Kanban_App_JavaVue/blob/main/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/tugay-ipek-5523ab188
 
