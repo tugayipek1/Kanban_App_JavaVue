@@ -49,5 +49,5 @@ Tugay İPEK- <a href="https://github.com/tugayipek1">Github</a>
 [license-shield]: https://img.shields.io/github/license/tugayipek1/Kanban_App_JavaVue.svg?style=for-the-badge
 [license-url]: https://github.com/tugayipek1/Kanban_App_JavaVue/blob/main/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://www.linkedin.com/in/tugay-ipek-5523ab188
+[linkedin-url]: https://www.linkedin.com/in/tugayipek1
 
