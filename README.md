@@ -29,6 +29,7 @@ Live demo: https://bocekanban.herokuapp.com/
 
 - ibrahimaltinoluk
 - tugayipek1
+- kenanyasinsarigul
 - sahanaydn
 - mustafapicakci
 - ayseelgoren
